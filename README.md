@@ -10,14 +10,13 @@ Evaluation
 License
 Acknowledgements
 Overview
-This project demonstrates how to:
-
-Set up a runtime environment in Google Colab with high RAM.
-Install necessary libraries and dependencies.
-Load, preprocess, and tokenize data from a custom dataset.
-Load a pre-trained model (OpenChat 3.5) with quantization techniques.
-Apply LoRA for efficient fine-tuning on a specific dataset.
-Evaluate the model's performance using a set of predefined questions.
+- This project demonstrates how to:
+- Set up a runtime environment in Google Colab with high RAM.
+- Install necessary libraries and dependencies.
+- Load, preprocess, and tokenize data from a custom dataset.
+- Load a pre-trained model (OpenChat 3.5) with quantization techniques.
+- Apply LoRA for efficient fine-tuning on a specific dataset.
+- Evaluate the model's performance using a set of predefined questions.
 Key features:
 
 Quantization: Utilizes bitsandbytes to perform model quantization (4-bit, 8-bit) to reduce memory usage and improve performance.
